@@ -95,8 +95,8 @@ public class SigninAccFragment extends Fragment {
 			@Override
 			public void onClick(View v) {
 				
-				EditText EmailInput = (EditText) aq.id(R.id.fillemailforlogin).getView();
-				EditText PasswordInput = (EditText) aq.id(R.id.fillpasswordforlogin).getView();	
+				EditText EmailInput = (EditText) view.findViewById(R.id.fillemailforlogin).;
+				EditText PasswordInput = (EditText) view.id(R.id.fillpasswordforlogin).getView();	
 				EmailInput.setFocusable(true);
 				
 				fid = "0";
@@ -105,7 +105,7 @@ public class SigninAccFragment extends Fragment {
 				
 				
 				if (EmailText.matches("") || PasswordText.matches("")) {
-					AlertDialog.Builder dialog = new AlertDialog.Builder(aq.getContext());
+					AlertDialog.Builder dialog = new AlertDialog.Builder(getActivity());
 					dialog.setTitle("Cannot submit");
 					dialog.setMessage("Please fill out this form completely.");
 					dialog.setPositiveButton("OK", null);

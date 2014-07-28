@@ -8,7 +8,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.androidquery.AQuery;
 import com.facebook.Session;
 import com.facebook.SessionState;
 import com.facebook.UiLifecycleHelper;
@@ -50,7 +49,6 @@ public class SigninFbFragment extends Fragment {
 	private String get_email, get_id;
 	
 	// params for service
-	private AQuery aq;
 	private String weight,weight_date;
 	private String diry_id, diry_uid, diry_text, diry_image, diry_weight, diry_created, diry_modified;
 	private String service_fid, service_uid, service_email, service_password, 
@@ -89,7 +87,6 @@ public class SigninFbFragment extends Fragment {
 		View view = inflater.inflate(R.layout.signin_fb_fragment, container, false);
 		
 		goonDB = new GoonDB(getActivity());
-	    aq = new AQuery(getActivity());
 		// Check Internet
 		cd = new NetworkHelper(getActivity());
 		isInternetPresent = cd.isConnectingToInternet();
