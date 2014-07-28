@@ -74,14 +74,14 @@ public class SigninAccFragment extends Fragment {
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		View view = inflater.inflate(R.layout.signin_acc_fragment, container, false);	
+		final View view = inflater.inflate(R.layout.signin_acc_fragment, container, false);	
 		
 		goonDB = new GoonDB(getActivity());
 		aq = new AQuery(getActivity());
 		// Check Internet
 		cd = new NetworkHelper(getActivity().getApplicationContext());
         isInternetPresent = cd.isConnectingToInternet();
-		        
+		 //       
 		// User Session Manager
         sessionlogin = new UserSessionManager(getActivity());
 		boolean isSuccess = false;
@@ -95,8 +95,8 @@ public class SigninAccFragment extends Fragment {
 			@Override
 			public void onClick(View v) {
 				
-				EditText EmailInput = (EditText) view.findViewById(R.id.fillemailforlogin).;
-				EditText PasswordInput = (EditText) view.id(R.id.fillpasswordforlogin).getView();	
+				EditText EmailInput = (EditText) view.findViewById(R.id.fillemailforlogin);
+				EditText PasswordInput = (EditText) view.findViewById(R.id.fillpasswordforlogin);	
 				EmailInput.setFocusable(true);
 				
 				fid = "0";
