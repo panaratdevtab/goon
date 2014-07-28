@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Goon</string>
+    <string name="text_youremail">อีเมลล์ของคุณ</string>
+    <string name="report_email_send">ส่งรายงาน</string>
+    <string name="report_email">เราจะส่ง Report ไปยังอีเมลล์ของคุณตามที่ระบุไว้ข้างบน</string>
+    <string name="text_forgot_password">คุณสามารถรีเซตรหัสผ่านของคุณโดยใช้อีเมลล.์</string>
+    <string name="app_id">537140153074644</string>
+    <string name="create_acc">สมัครสมาชิกใหม่</string>
+    <string name="forgot_pass">ลืมรหัสผ่าน</string>
+    <string name="btn_signin">ล๊อกอิน</string>
+    <string name="email">อีเมลล์</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="repassword">ยืนยันรหัสผ่าน</string>
+    <string name="btn_send">ส่ง</string>
+    <string name="btn_cancel">ยกเลิก</string>
+    <string name="btn_clear">เคลียร์</string>
+    <string name="text_titletoday">วันนี้</string>
+    <string name="day">วัน</string>
+    <string name="womb_age">อายุครรภ์</string>
+    <string name="diary">ไดอารี</string>
+    <string name="album">อัลบั้ม</string>
+    <string name="new_born">เด็กแรกเกิด</string>
+    <string name="congratulation">แสดงความยินดี</string>
+    <string name="tips">เคล็ดลับ</string>
+    <string name="kilogram">กก.</string>
+    <string name="mon">จ</string>
+    <string name="tue">อ</string>
+    <string name="wed">พ</string>
+    <string name="thurs">พฤ</string>
+    <string name="fri">ศ</string>
+    <string name="sat">ส</string>
+    <string name="sun">อ</string>
+    <string name="edit_profile">แก้ไขข้อมูลส่วนตัว</string>
+    <string name="last_updated">ปรับปรุงล่าสุด</string>
+    <string name="jan">มกราคม</string>
+    <string name="feb">กุมภาพันธ์</string>
+    <string name="mar">มีนาคม</string>
+    <string name="april">เมษายน</string>
+    <string name="may">พฤษภาคม</string>
+    <string name="june">มิถุนายน</string>
+    <string name="july">กรกฎาคม</string>
+    <string name="aug">สิงหาคม</string>
+    <string name="sep">กันยายน</string>
+    <string name="oct">ตุลาคม</string>
+    <string name="nov">พฤศจิกายน</string>
+    <string name="dec">ธันวาคม</string>
+    <string name="logout">ออกจากระบบ</string>
+
+</resources>

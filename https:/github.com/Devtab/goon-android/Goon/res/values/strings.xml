@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name">Goo.N</string>
+    <string name="text_youremail">Your Email</string>
+    <string name="report_email_send">Send Report</string>
+    <string name="report_email">เราจะส่ง Report ไปยังอีเมลล์ของคุณตามที่ระบุไว้ข้างบน</string>
+    <string name="text_forgot_password">You can reset the password for your Goon account by Email.</string>
+    <string name="app_id">537140153074644</string>
+    <string name="signin_create_acc">Create Account</string>
+    <string name="create_acc">Create Account</string>
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="btn_signin">Sign in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="repassword">ConfirmPassword</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_clear">Clear</string>
+    <string name="text_titletoday">ToDay</string>
+    <string name="day">days</string>
+    <string name="womb_age">Womb Age</string>
+    <string name="diary">Diary</string>
+    <string name="album">Album</string>
+    <string name="new_born">New Born</string>
+    <string name="congratulation">Congratulation</string>
+    <string name="tips">Tips</string>
+    <string name="kilogram">Kg.</string>
+    <string name="mon">M</string>
+    <string name="tue">T</string>
+    <string name="wed">W</string>
+    <string name="thurs">T</string>
+    <string name="fri">F</string>
+    <string name="sat">S</string>
+    <string name="sun">S</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="last_updated">Last updated</string>
+    <string name="jan">January</string>
+    <string name="feb">February</string>
+    <string name="mar">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="aug">August</string>
+    <string name="sep">September</string>
+    <string name="oct">October</string>
+    <string name="nov">November</string>
+    <string name="dec">December</string>
+    <string name="logout">Logout</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/noteedittext"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:hint="Note it..." >
+
+            <requestFocus />
+        </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noteedittext"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/savenote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/cancelnote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40"
+            android:text="Cancel" />
+
+    </LinearLayout>
+
+</RelativeLayout>
